@@ -1,4 +1,4 @@
-# Interaction
+# ![Assessment 2][banner]
 This is assessement 2 of Frontend 3. I've made a D3 chart of visualsing the amount of the labor participation and unemployment per month. This assignment is made with [D3](https://d3js.org/). I've chosen the [Grouped Bar Chart](https://bl.ocks.org/mbostock/3887051) to visualise my data. You can filter between the years and also the amount.
 
 ![Final version](preview.png)
@@ -6,16 +6,16 @@ This is assessement 2 of Frontend 3. I've made a D3 chart of visualsing the amou
 ## Background
 First of I copied the files from the original [Grouped Bar chart]. After that I've made a directory with the following files:
 
-* 'index.html', This is basically the file that's being show in the browser.
-* 'index.css', Stylesheet.
-* 'index.js', Here is where the animations and the data is being loaded in.
-* 'index.csv', This is the data.
+* `index.html`, This is basically the file that's being show in the browser.
+* `index.css`, Stylesheet.
+* `index.js`, Here is where the animations and the data is being loaded in.
+* `index.csv`, This is the data.
 
 ### index.html
-I've added a '<main>' and '<section>' to the file. The '<main>' I used for the CSS later on added the '<section>' tag for the '<button>' to sort the data on.
+I've added a `<main>` and `<section>` to the file. The `<main>` I used for the CSS later on added the `<section>` tag for the `<button>` to sort the data on.
   
 ### index.css
-In the index.css file I've positioned the body so that it's centered in the middle of the browser. To the '<main>' I've added 
+In the index.css file I've positioned the body so that it's centered in the middle of the browser. To the `<main>` I've added 
 
 ### index.js
 First of I copied the code from the original file. After that I looked into the file and read down the code to understand it. 
@@ -33,11 +33,11 @@ I used the data from the [CBS](http://statline.cbs.nl/statweb/publication/?vw=t&
 
 2015 example:
 
-* '2015, August'
-* '2015, September'
-* '2015, October'
-* '2015, November'
-* '2015, December' and so on..
+* `2015, August`
+* `2015, September`
+* `2015, October`
+* `2015, November`
+* `2015, December` and so on..
 
 The data is a .CSV file. The data is a a little bit dirty with some minor mistakes. 
 
@@ -68,3 +68,5 @@ This assessment was really hard for me. I took a little bit time to load and cle
 ## License
 
 GPL 3.0 © 2017 Dylan van Zanten
+
+[banner]: https://cdn.rawgit.com/cmda-fe3/logo/a4b0614/banner-assessment-2.svg
