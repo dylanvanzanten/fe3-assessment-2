@@ -53,9 +53,9 @@ Example:
 
 I loaded the data into my JS file. After that I removed some things in the file:
 
-* 'Removed the header and made a static header into the index.html file'
-* 'Removed the footer'
-* 'Removed the quotation marks and changed them into comma's'
+* `Removed the header and made a static header into the index.html file`
+* `Removed the footer`
+* `Removed the quotation marks and changed them into comma's`
 
 ## Features
 * [D3](https://d3js.org/)
