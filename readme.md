@@ -9,7 +9,7 @@ First of I copied the files from the original [Grouped Bar chart]. After that I'
 * `index.html`, This is basically the file that's being show in the browser.
 * `index.css`, Stylesheet.
 * `index.js`, Here is where the animations and the data is being loaded in.
-* `index.csv`, This is the data.
+* `index.csv`, This is the data I just for the datavisualisation.
 
 ### index.html
 I've added a `<main>` and `<section>` to the file. The `<main>` I used for the CSS later on added the `<section>` tag for the `<button>` to sort the data on.
@@ -31,7 +31,7 @@ The "width" and "height" is coming from the global variables:
 ### index.csv
 I used the data from the [CBS](http://statline.cbs.nl/statweb/publication/?vw=t&dm=slnl&pa=80590ned&d1=10,12&d2=a&d3=0&d4=(l-26)-l&hd=160414-1419&hdr=t,g1&stb=g2,g3) website. The data contains how much labor participation and unemployment per month in three years:
 
-2015 example:
+#### 2015 example:
 
 * `2015, August`
 * `2015, September`
@@ -53,14 +53,16 @@ Example:
 
 I loaded the data into my JS file. After that I removed some things in the file:
 
-* `Removed the header and made a static header into the index.html file`
-* `Removed the footer`
-* `Removed the quotation marks and changed them into comma's`
+* `Removed the header and made a static header into the index.html file.`
+* `Removed the footer.`
+* `Removed the quotation marks and changed them into comma's.`
 
 ## Features
 * [D3](https://d3js.org/)
 * [Original Bar chart](https://bl.ocks.org/mbostock/3887051)
 * [Author](https://b.locks.org/mbostock)
+* [Used data](http://statline.cbs.nl/statweb/publication/?vw=t&dm=slnl&pa=80590ned&d1=10,12&d2=a&d3=0&d4=(l-26)-l&hd=160414-1419&hdr=t,g1&stb=g2,g3)
+* [CBS](https://www.cbs.nl/)
 
 ## Thoughts
 This assessment was really hard for me. I took a little bit time to load and clean up (a little bit I know!). I think a other chart would maybe be better for it. Maybe a map of a country with a slider that is showing the amount in the months or years.
